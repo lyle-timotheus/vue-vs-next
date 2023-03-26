@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Next JS vs VUE JS</title>
+    <link href="./index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Next JS vs VUE JS</h1>
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>Next.js</th>
+          <th>Vue.js</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Server-side rendering</td>
+          <td>Yes 🥇</td>
+          <td>No (but can be achieved through third-party libraries)</td>
+        </tr>
+        <tr>
+          <td>Routing</td>
+          <td>Built-in 🟰</td>
+          <td>Built-in 🟰</td>
+        </tr>
+        <tr>
+          <td>Scalability</td>
+          <td>Good for large-scale applications 🥇</td>
+          <td>Good for small to medium-sized applications</td>
+        </tr>
+        <tr>
+          <td>Learning curve</td>
+          <td>Moderate (requires knowledge of React)</td>
+          <td>Easy 🥇</td>
+        </tr>
+        <tr>
+          <td>Community</td>
+          <td>Large and active 🟰</td>
+          <td>Large and active 🟰</td>
+        </tr>
+        <tr>
+          <td>Performance</td>
+          <td>Fast 🟰</td>
+          <td>Fast 🟰</td>
+        </tr>
+        <tr>
+          <td>Flexibility</td>
+          <td>More opinionated</td>
+          <td>More flexible 🥇</td>
+        </tr>
+        <tr>
+          <td>SEO</td>
+          <td>Good (due to server-side rendering)🥇</td>
+          <td>Good</td>
+        </tr>
+        <tr>
+          <td>Development speed</td>
+          <td>Fast (due to built-in features and tools)</td>
+          <td>Fast (due to simplicity and ease of use) 🥇</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="personal-container">
+      <h2>
+        <span class="font-bold">Personal Points</span> While building this
+        application using the 2 frameworks
+      </h2>
+      <h3>Next JS</h3>
+      <ul>
+        <li>
+          All components are now server-side components, meaning the load speed
+          is faster
+        </li>
+        <li>
+          Newer loading.js file functionality to show an instant loading state
+          from the server. No need to set this up in state management.
+        </li>
+        <li>
+          Fetching of data is easily managed and easy to share across
+          components.
+        </li>
+        <li>
+          With the new update, I don't have to use getServerSideProps anymore
+          since all components are server components by default.
+        </li>
+        <li>
+          I can load fonts from Google fonts with "New @next/font" which is
+          self-hosted. Big win 💪
+        </li>
+        <li>
+          We also have async Server Components and enables component-level
+          fetching.
+        </li>
+        <li>
+          New App directory which helps with structuring of code. ⬇️
+          <img
+            src="https://nextjs.org/_next/image?url=%2Fstatic%2Fblog%2Flayouts-rfc%2Fapp-folder.png&w=3840&q=75"
+            width="600"
+          />
+        </li>
+        <li class="cons">
+          I have to specifically declare that a component is a client component
+          by add 'use client' as the first line in the component file.
+        </li>
+        <li class="cons">
+          I had to adjust quickly to the new App structure that was recently
+          introduced in Next JS 13.
+        </li>
+      </ul>
+      <!-- VUE JS SECTION -->
+      <h3>VUE JS</h3>
+      <ul>
+        <li>Files are nealty organized and easy to find.</li>
+
+        <li>State syntax made it a bit easier to write.</li>
+        <li>
+          The learning curve should be easier since it has a mix of Ractive JS
+          and follows a similar style.
+        </li>
+        <li>
+          I like that the framework is very flexible and does not follow the
+          opinionated practice of Next JS.
+        </li>
+        <li class="cons">
+          Two way binding confused me at times compared to Next JS "one way
+          binding".
+        </li>
+        <li class="cons">
+          I got confused sometimes with the components I needed to add into the
+          Parent file.
+        </li>
+        <li class="cons">
+          I still have to still explicilty add life cycle hooks.
+        </li>
+        <li class="cons">
+          I need to setup routes in the router file and attach various options
+          as well.
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
