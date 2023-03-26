@@ -1,4 +1,4 @@
-Steps to get project up and running
+# Steps to get project up and running
 
 1. Install Git on your local machine. You can download the installer from the official Git website: https://git-scm.com/downloads.
 
@@ -14,11 +14,11 @@ Steps to get project up and running
    $ cd vue-vs-next
    $ cd next
 
-## Follow step 6 after this and then come back to the next line
+### Follow step 6 after this and then come back to the next line
 
-$ cd vue
+    $ cd vue
 
-## Also install the dependencies by running the command in step 6
+### Also install the dependencies by running the command in step 6
 
 6. Install the project dependencies by running the following command:
    $ npm install
@@ -26,4 +26,4 @@ $ cd vue
 7. Go to view the application in vue or next directory and run the following command:
    $ npm run dev
 
-## This will start a local development server and open the project in your default web browser.
+### This will start a local development server and open the project in your default web browser.
