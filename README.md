@@ -4,13 +4,16 @@
 
 2. Open a terminal or command prompt on your local machine.
 
-3. Navigate to the directory where you want to clone the project. For example, if you want to clone the project to a directory called "vue-vs-next" on your desktop, you can use the following command:
+3. Navigate to the directory where you want to clone the project. For example, if you want to clone the project to a directory called "vue-vs-next" on your desktop, you can use the following command
+
    $ cd ~/Desktop
 
 4. Clone the project by running the following command
+
    $ git clone https://github.com/lyle-timotheus/vue-vs-next.git
 
 5. Navigate into the project directory
+
    $ cd vue-vs-next
    $ cd next
 
