@@ -14,12 +14,14 @@
 
 5. Navigate into the project directory
 
-   $ cd vue-vs-next
-   $ cd next
+   - $ cd vue-vs-next
+   - $ cd next
+   - $ cd movie-app
 
 #### Follow step 6 after this and then come back to the next line
 
-    $ cd vue
+    - $ cd vue
+    - $ cd vue-movie-app
 
 #### Also install the dependencies by running the command in step 6
 
